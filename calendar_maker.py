@@ -99,9 +99,6 @@ for row in cur.fetchall():
         dtstamp
     ) = row
 
-    if couple_id == 1:
-        continue
-    
     if last_nm == '-':
         couple_name = f"{husband_name} & {wife_name}"
     else:
